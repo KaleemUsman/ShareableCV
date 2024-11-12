@@ -46,33 +46,23 @@
             <textarea id="skills" placeholder="Enter Your Skills" rows="3"></textarea>
         </fieldset>
 
-
         <button type="submit"><b>Generate Resume</b></button>
     </form>
     <br>
 
-    <!-- Shareable Resume Builder-->
+    <div id="resume-display" contenteditable="true">
+        <p>No resume generated yet. Fill out the form above and click "Generate Resume" to see it here.</p>
+    </div>
 
-    <div id="resume-display" contenteditable="tru">
+    <br>
+    <div id="shareablelink-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>View or Edit Your Resume</p>
+        <a href="#" id="shareablelink" target="_blank"></a>
+    </div>
+    <br>
+    <button id="download"><b>Download PDF</b></button>
 
-    <!-- Shareable Resume Builder-->
-</div>
-        <br>
-
-        <!-- Shareable Link & Download -->
-<div id="shareablelink" style="display: none;">
-<h2>Shareable Link</h2>
-<p>View or Edit Your Resume</p>
-<a href="#" id="shareablelink" target="_blank"></a>
-<br> 
-<button id="download"><b>Download PDF</b></button>
-
-
-
-
-</div>
-
-    
     <script src="script.js"></script>
 </body>
 </html>
